@@ -1,0 +1,115 @@
+/*
+   NUZ Guitars - A mock small business
+
+   Authors:          Nate Renfro, Ulyses Parra, Zerrick Orion
+   Date:             5.12.17
+
+   Filename:         styles.css
+   Supporting files: none
+*/
+
+/*Styles for the general webpage(s)*/
+body {
+  /*background-color: rgb(150, 150, 150);*/
+  background-image: url(img/patternGrey.png);
+}
+
+
+/*Custom Font Styles*/
+.yellowTailFont {
+  font-family: 'Yellowtail', cursive;
+}
+
+.muktaFont {
+  font-family: 'Ek Mukta', sans-serif;
+}
+
+.accent {
+  color: rgb(215, 20, 20);
+}
+
+
+/*Styles for Navbar elements*/
+.navCol {
+  background-image: -webkit-linear-gradient(top,#3c3c3c 0,#222 100%);
+  background-image: -o-linear-gradient(top,#3c3c3c 0,#222 100%);
+  background-image: -webkit-gradient(linear,left top,left bottom,from(#3c3c3c),to(#222));
+  background-image: linear-gradient(to bottom,#3c3c3c 0,#222 100%);
+
+  padding: 15px;
+}
+
+.homeNav a {
+  color: rgb(215, 20, 20);
+}
+
+.nav-pills li a {
+  border-radius: 0;
+}
+
+.homeNav .dropdown-menu a {
+  color: rgb(255, 255, 255);
+}
+
+.navbar-inverse .navbar-brand {
+  font-size: 52px;
+  margin-top: 2%;
+  padding-bottom: 5%;
+  color: rgb(215, 20, 20);
+  text-shadow: 0 -2px 0 rgb(255, 255, 255);
+}
+
+.navbar-inverse .navbar-brand:hover {
+    color: rgb(215, 20, 20);
+    background-color: transparent;
+}
+
+.dropdown-menu {
+  background-color: rgb(150, 150, 150);
+  -webkit-background-clip: padding-box;
+  background-clip: padding-box;
+  border: transparent;
+  border-radius: 0;
+  width: 100%;
+}
+
+.dropdown-menu li a:hover {
+  background: rgb(215, 20, 20);
+  color: rgb(235, 235, 235);
+}
+
+
+/*Styles for main container*/
+#main {
+  margin-top: 85px;
+}
+
+.message {
+  padding: 15px;
+  margin: 6px;
+  padding-bottom: 75px;
+  font-size: 16px;
+  color: rgb(235, 235, 235);
+  text-align: center;
+  background-color: rgb(215, 20, 20);
+  box-shadow: -5px 5px rgb(235, 235, 235), 5px -5px #3c3c3c;
+  box
+
+  /*background-image: -webkit-linear-gradient(top,rgb(215, 20, 20) 0, rgb(150, 150, 150); 100%);
+  background-image: -o-linear-gradient(top,rgb(215, 20, 20) 0, rgb(150, 150, 150); 100%);
+  background-image: -webkit-gradient(linear,left top, left bottom,from(rgb(215, 20, 20)),to(rgb(150, 150, 150)));
+  background-image: linear-gradient(to bottom,rgb(215, 20, 20) 0,rgb(150, 150, 150); 100%);*/
+
+}
+
+
+
+/*Styles for the footer element*/
+footer, footer a {
+  text-align: center;
+  color: rgb(235, 235, 235);
+}
+
+footer a:hover {
+  color: rgb(215, 20, 20);
+}

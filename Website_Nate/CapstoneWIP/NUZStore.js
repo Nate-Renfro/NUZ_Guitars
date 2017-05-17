@@ -4,12 +4,6 @@
    Authors:          Nate Renfro, Ulyses Parra, Zerrick Orion
    Date:             5.12.17
 
-   Filename:         styles.css
+   Filename:         NUZStore.js
    Supporting files: none
 */
-
-/*Styles for main container div*/
-#main {
-  margin-top: 75px;
-
-}
